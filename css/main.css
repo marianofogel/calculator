@@ -7,13 +7,13 @@
 
 body{
     min-height: 100vh;
-    background-color: blueviolet;
+    background-color: rgb(202, 213, 235);
     display: grid;
     place-items: center;
 }
 
 .calculadora {
-    background-color: rgb(15, 15, 68);
+    background-color: rgb(8, 8, 34);
     color: whitesmoke;    
     width: 350px;
     max-width: 100%;
@@ -26,8 +26,8 @@ body{
 
 .pantalla {
     grid-column: 1 / 5 ; 
-    background-color: blueviolet;
-    padding: 1.5rem;
+    background-color: rgb(81, 78, 83); /* Color de fondo del botón */
+    padding: 1.5rem; /* Espaciado interno del botón */
     font-size: 2rem; /* temaño fuente */
     text-align: right; /* alineacion del texto */
     border-radius: .5rem;
@@ -39,13 +39,14 @@ body{
 .btn {
     background-color: rgb(15, 15, 68) ;
     color: rgb(255, 255, 255);
-    border: 0;
+    border: 0; /* bordes */
     padding: 1.5rem .5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: .5rem;
-    cursor: pointer;
+    border-radius: .5rem; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de puntero al pasar el mouse */
+    
 }
 
 .btn:hover {
@@ -58,10 +59,10 @@ body{
 
 #igual {
     grid-row: span 2;
-    background-color: rgb(91, 68, 113)
+    background-color: rgb(70, 62, 78)
 }
 
 #igual:hover{
-    background-color: beige
+    background-color: rgb(224, 224, 194)
 }
 
